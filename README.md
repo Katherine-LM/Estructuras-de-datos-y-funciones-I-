@@ -1,17 +1,15 @@
-# Estructuras-de-datos-y-funciones-I
+# App de práctica para estructuras de datos y funciones (|)
 
 Pequeñas aplicaciones para aprender Python, con estructuras de datos y funciones
 
-## Requisitos
 
-Enumera los requisitos necesarios para ejecutar el proyecto, como versiones de software, bibliotecas, etc.
-
-argumentos.py ==> Pequeña aplicación a modo de presentación de las personas.
+#argumentos.py
+Pequeña aplicación a modo de presentación de las personas.
 Todo lo que se escriba después del nombre del script, corresponderá a los
 argumentos siguientes.
 
-efemerides.py ==> se realiza esta pequeña app utilizando un diccionario:
-# definimos el diccionario
+#efemerides.py
+se realiza esta pequeña app utilizando un diccionario.
 efemerides = {
 
  '1 de Enero': 'Año Nuevo',
@@ -24,15 +22,18 @@ efemerides = {
  
  }
 
-conversiones.py ==> una estructura de datos apropiada que permita
-ingresar tasas de conversión. Las distintas tasas de conversión se deben ingresar
+#conversiones.py
+una estructura de datos apropiada que permite ingresar tasas de conversión. Las distintas tasas de conversión se deben ingresar
 mediante sys.argv en el siguiente orden: Sol, Peso Argentino, Dólar Americano.
-Usando el siguiente script arrojará la información: python conversiones.py 0.0046 0.093 0.0013 10000 (import sys)
+Usando el siguiente script arrojará la información:
+python conversiones.py 0.0046 0.093 0.0013 10000 (import sys)
 
 
-word_count.py es una app para contar las palabras y los carácteres del archivo entregado para este ejericicio, el lorem_ipsum.txt
+#word_count.py 
+es una app para contar las palabras y los carácteres del archivo entregado para este ejericicio (el lorem_ipsum.txt)
 
-recordatorios.py que incluye una serie de eventos que quieren ser recordados por usted. El formato de estos recordatorios son una fecha
+#recordatorios.py 
+Incluye una serie de eventos que quieren ser recordados. El formato de estos recordatorios son una fecha
 (año-mes-día), una hora y una descripción del evento
 
 
