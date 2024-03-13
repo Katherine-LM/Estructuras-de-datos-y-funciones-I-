@@ -14,8 +14,6 @@ cena_ano_nuevo = ['2021-12-31', '22:00', 'Cena de Año Nuevo']
 recordatorios.append(cena_navidad)
 recordatorios.append(cena_ano_nuevo)
 
-print(recordatorios)
-
 
 # Imprimir la tabla utilizando tabulate
-print(tabulate(recordatorios, headers=['Fecha', 'Hora'], tablefmt='pretty'))
+print(tabulate(recordatorios, headers=['Fecha', 'Hora', 'Tarea'], tablefmt='pretty'))
