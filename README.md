@@ -32,6 +32,10 @@ Usando el siguiente script arrojará la información: python conversiones.py 0.0
 
 word_count.py es una app para contar las palabras y los carácteres del archivo entregado para este ejericicio, el lorem_ipsum.txt
 
+recordatorios.py que incluye una serie de eventos que quieren ser recordados por usted. El formato de estos recordatorios son una fecha
+(año-mes-día), una hora y una descripción del evento
+
+
 ## Instalación
 
 Proporciona instrucciones paso a paso sobre cómo instalar y configurar el proyecto. 
